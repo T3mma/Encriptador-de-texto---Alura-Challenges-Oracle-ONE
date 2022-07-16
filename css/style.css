@@ -1,0 +1,26 @@
+*{
+    background: #F3F5FC;
+}
+#vector{
+    position: absolute;
+    left: 44px;
+    top: 48px;
+    
+}
+#ingreso-texto{
+    position: absolute;
+    width: 577px;
+    height: 255px;
+    left: 240px;
+    top: 168px;
+    border: none;
+}
+::placeholder{
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    padding: 0 0 0 10px;
+}
