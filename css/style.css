@@ -13,14 +13,28 @@
     height: 255px;
     left: 240px;
     top: 168px;
-    border: none;
-}
-::placeholder{
     color: #0A3871;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
-    padding: 0 0 0 10px;
+    border: none;
+    outline: none;
+}
+::placeholder{
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;  
+}
+#egreso-texto{
+    position: absolute;
+    width: 400px;
+    left: 940px;
+    top: 40px;
+    right: 40px;
+    bottom: 40px;
+    resize: none;
 }
