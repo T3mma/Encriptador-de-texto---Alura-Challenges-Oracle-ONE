@@ -1,34 +1,80 @@
 * {
-    margin: 0;
-    padding: 0;
-    background: #F3F5FC;
-    font-family: "Inter" sans-serif;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 150%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Inter' sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%; */
 }
-main{
-    display: flex;
-    justify-content: space-around;
+
+body {
+  background: rgb(238, 241, 253);
 }
-.input-text{
-    width: 608px;
-    height: 358px;
-    margin-top: 90px;
-    margin-left: 40px;
+
+.icono-inicio {
+  margin: 20px;
+  display: inline-block;
 }
-.output-text{
-    position: relative;
-    height: 534px;
-    width: 400px;
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: 40px;
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
 }
-#alerta{
-    color: #ff0000;
-    display: none;
+
+.input-text {
+  width: 700px;
+  height: 360px;
+  padding: 20px;
+  background-color: rgb(238, 241, 253);
+  color: rgb(10, 56, 113);
+  outline: 3px solid red;
+  border: transparent;
+  border-radius: 20px;
+  font-size: 2rem;
+  resize: none;
 }
+
+.advertencia {
+  display: block;
+  width: auto;
+  height: 30px;
+  outline: 3px solid blue;
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+
+.advertencia[data-icon='advertencia-icono']::before {
+  content: '';
+  width: 15px;
+  height: 16px;
+  background-image: url(../Imagenes/alert-circle-svgrepo-com.svg);
+}
+
+.output-text {
+  height: 80vh;
+  width: 400px;
+  padding: 20px;
+  color: #0a3871;
+  outline: none;
+  border: transparent;
+  border-radius: 20px;
+  font-size: 2rem;
+  resize: none;
+  outline: 3px solid red;
+}
+
+.input-btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* 
+#alerta {
+  color: #ff0000;
+  display: none;
+} */
 /*#vector{
     position: absolute;
     left: 44px;
